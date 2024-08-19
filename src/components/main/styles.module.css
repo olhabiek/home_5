@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main_container {
+  max-width: 1992px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 112px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 32px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.btn_container {
+  border: 3px solid #1ed760;
+  border-radius: 65px;
+  margin-top: 31px;
+  display: flex;
+  width: 446px;
+  height: 175px;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 57px 41px 57px;
+}
+
+button {
+  background-color: #1e1e1e;
+  border: none;
+}
+
+.apple {
+  width: 97px;
+  margin-right: 18px;
+  height: 98px;
+}
+
+.google {
+  width: 97px;
+  margin-right: 15px;
+  height: 98px;
+}
+
+.x {
+  width: 106px;
+  height: 98px;
+}
+
+@media (max-width: 480px) {
+  .btn_container {
+    width: 346px;
+  }
+
+  .apple,
+  .google {
+    width: 77px;
+  }
+
+  .x {
+    max-width: 86px;
+  }
+}
